@@ -1,0 +1,179 @@
+<html><head></head><body><link rel="stylesheet" type="text/css" href="chrome-extension://ckkdlimhmcjmikdlpkmbgfkaikojcbjk/themes/github.css" id="_theme"><div id="_html" class="markdown-body"><h1 id="html"><a class="anchor" name="html" href="#html"><span class="octicon octicon-link"></span></a>HTML</h1>
+<h3 id="table-of-content"><a class="anchor" name="table-of-content" href="#table-of-content"><span class="octicon octicon-link"></span></a>Table of content</h3>
+<ol>
+<li><a href="##About">About</a></li>
+<li><a href="##Syntax">Syntax</a></li>
+<li><a href="##structure">Page Structure</a></li>
+<li><a href="##link">creat a link</a></li>
+<li><a href="##table">table</a></li>
+<li><a href="##list">list</a></li>
+<li><a href="#Maps"><strong>image maps</strong></a></li>
+<li><a href="#Extended">extended studies references</a></li>
+<li><a href="#extendedOFextended">extended of extended studies references</a></li>
+</ol>
+<h2 id="about-"><a class="anchor" name="about-" href="#about-"><span class="octicon octicon-link"></span></a>About <a name="About"></a></h2>
+<ol>
+<li><p>is a markup language</p>
+</li>
+<li><p>for creating webpage and doc</p>
+</li>
+<li><p>build blocks for website</p>
+</li>
+<li><p>use index.html as the root page</p>
+</li>
+<li><p>use .html extension</p>
+</li>
+</ol>
+<h2 id="syntax-tag-content-tag-"><a class="anchor" name="syntax-tag-content-tag-" href="#syntax-tag-content-tag-"><span class="octicon octicon-link"></span></a>Syntax <code>&lt;tag&gt; content &lt;/tag&gt;</code> <a name="Syntax"></a></h2>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">&gt;</span></span> text <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span><span class="token punctuation">&gt;</span></span> text <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">&gt;</span></span> text <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">&gt;</span></span> text <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>blockquote</span><span class="token punctuation">&gt;</span></span> quote <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>blockquote</span><span class="token punctuation">&gt;</span></span></code></pre>
+<p>Render Effect :
+normal, 
+<i> italic </i>, 
+<strong> strong </strong>, 
+<b> bold </b>, 
+<u> underline </u></p>
+<blockquote> halo, hello, hi </blockquote>
+
+<h2 id="page-structure-"><a class="anchor" name="page-structure-" href="#page-structure-"><span class="octicon octicon-link"></span></a>Page structure <a name="structure"></a></h2>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span> 
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span> Title of the page <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span></code></pre>
+<pre class=" language-html"><code class=" language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+        <span class="token comment">&lt;!-- can be h1 - h6  --&gt;</span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span> header 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>    
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span> paragraph 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre>
+<h2 id="create-a-link--"><a class="anchor" name="create-a-link--" href="#create-a-link--"><span class="octicon octicon-link"></span></a>Create a link  <a name="link"></a></h2>
+<ul>
+<li><code>target = "_blank" to open a new tab</code></li>
+<li><a href="https://www.example.com/" target="_blank"> This is a link </a></li>
+</ul>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.example.com/<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span> This is a link <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span></code></pre>
+<h2 id="table-"><a class="anchor" name="table-" href="#table-"><span class="octicon octicon-link"></span></a>table <a name="table"></a></h2>
+<p><code>&lt;table&gt;</code>, 
+<code>&lt;thead&gt; table header</code>, 
+<code>&lt;th&gt; table head</code>, 
+<code>&lt;tbody&gt; table body</code>, 
+<code>&lt;tr&gt; table row</code>, 
+<code>&lt;td&gt; table data</code></p>
+<p>we jz use table, tr, th, td</p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> head 1 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">&gt;</span></span> head 2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span> row 1 data 1 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span> row 1 data 2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span> row 2 data 1 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">&gt;</span></span> row 2 data 2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">&gt;</span></span></code></pre>
+<p>Effect: </p>
+<table>
+        <tbody><tr>
+            <th> head 1 </th>
+            <th> head 2 </th>
+        </tr>
+        <tr>
+            <td> row 1 data 1 </td>
+            <td> row 1 data 2 </td>
+        </tr>
+        <tr>
+            <td> row 2 data 1 </td>
+            <td> row 2 data 2 </td>
+        </tr>
+</tbody></table>
+
+<h2 id="list-"><a class="anchor" name="list-" href="#list-"><span class="octicon octicon-link"></span></a>list <a name="list"></a></h2>
+<h3 id="unordered-list-ul"><a class="anchor" name="unordered-list-ul" href="#unordered-list-ul"><span class="octicon octicon-link"></span></a>unordered list, ul</h3>
+<pre class=" language-html"><code class=" language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>item 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>item 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+
+
+<h3 id="ordered-list-ol"><a class="anchor" name="ordered-list-ol" href="#ordered-list-ol"><span class="octicon octicon-link"></span></a>ordered list, ol</h3>
+<pre class=" language-html"><code class=" language-html">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>item 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>item 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+    </ol>
+
+
+<h1 id="image-maps--"><a class="anchor" name="image-maps--" href="#image-maps--"><span class="octicon octicon-link"></span></a><strong>Image Maps</strong>  <a name="Maps"></a></h1>
+<p>The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.</map></p>
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>assert/image/002-html-example.PNG<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Workplace<span class="token punctuation">"</span></span> <span class="token attr-name">usemap</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#workmap<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>map</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>workmap<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>area</span> <span class="token attr-name">shape</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rect<span class="token punctuation">"</span></span> <span class="token attr-name">coords</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>34,44,270,350<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Computer<span class="token punctuation">"</span></span> 
+        <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.google.com/search?q=computer<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>area</span> <span class="token attr-name">shape</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>rect<span class="token punctuation">"</span></span> <span class="token attr-name">coords</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>290,172,333,250<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Phone<span class="token punctuation">"</span></span> 
+        <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.google.com/search?q=phone<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>area</span> <span class="token attr-name">shape</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>circle<span class="token punctuation">"</span></span> <span class="token attr-name">coords</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>337,300,44<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Coffee<span class="token punctuation">"</span></span> 
+        <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.google.com/search?q=coffee<span class="token punctuation">"</span></span> <span class="token attr-name">target</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>_blank<span class="token punctuation">"</span></span>    <span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>map</span><span class="token punctuation">&gt;</span></span></code></pre>
+<p>Try to click the laptop, phone or coffee below: <code>not clickable in gitlab</code></p>
+<img src="assert/image/002-html-example.PNG" alt="Workplace" usemap="#workmap">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.google.com/search?q=laptop" target="_blank">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.google.com/search?q=phone" target="_blank">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.google.com/search?q=coffee" target="_blank">
+</map>
+
+<h1 id="extended-studies-"><a class="anchor" name="extended-studies-" href="#extended-studies-"><span class="octicon octicon-link"></span></a>Extended studies <a name="Extended"></a></h1>
+<h3 id="references-at-w3school"><a class="anchor" name="references-at-w3school" href="#references-at-w3school"><span class="octicon octicon-link"></span></a>references at W3school</h3>
+<ol>
+<li><a href="https://www.w3schools.com/html/html_forms.asp">html form</a></li>
+<li><a href="https://www.w3schools.com/html/html5_canvas.asp">html5 canvas</a></li>
+<li><a href="https://www.w3schools.com/html/html5_audio.asp">html audio</a></li>
+<li><a href="https://www.w3schools.com/html/html_youtube.asp">html youtube</a></li>
+<li><a href="https://www.w3schools.com/html/html5_geolocation.asp">html geolocations</a></li>
+<li><a href="https://www.w3schools.com/html/html5_draganddrop.asp">Drag and drop</a></li>
+<li><a href="https://www.w3schools.com/html/html5_webstorage.asp">web storage</a></li>
+</ol>
+<h3 id="additional-go-for-css-javascript-sql-python-and-php"><a class="anchor" name="additional-go-for-css-javascript-sql-python-and-php" href="#additional-go-for-css-javascript-sql-python-and-php"><span class="octicon octicon-link"></span></a>ADDITIONAL: go for css, javascript, sql, python and php</h3>
+<h3 id="additional--canvas-svg"><a class="anchor" name="additional--canvas-svg" href="#additional--canvas-svg"><span class="octicon octicon-link"></span></a>ADDITIONAL:  canvas, svg</h3>
+<h1 id="extended-of-extended-additional-studiess-"><a class="anchor" name="extended-of-extended-additional-studiess-" href="#extended-of-extended-additional-studiess-"><span class="octicon octicon-link"></span></a>extended OF extended ADDITIONAL STUDIESS <a id="extendedOFextended"></a></h1>
+<h3 id="1-react"><a class="anchor" name="1-react" href="#1-react"><span class="octicon octicon-link"></span></a>1. React</h3>
+<ul>
+<li>React is a JavaScript library for building user interfaces.</li>
+<li>React is used to build single page applications.</li>
+<li>React allows us to create reusable UI components.</li>
+</ul>
+<h3 id="2-jquery"><a class="anchor" name="2-jquery" href="#2-jquery"><span class="octicon octicon-link"></span></a>2. jquery</h3>
+<ul>
+<li>jQuery is a lightweight, "write less, do more", JavaScript library.</li>
+<li>The purpose of jQuery is to make it much easier to use JavaScript on your website.</li>
+<li>jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish,
+and wraps them into methods that you can call with a single line of code.</li>
+<li>jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.</li>
+</ul>
+<h3 id="3-nodejs"><a class="anchor" name="3-nodejs" href="#3-nodejs"><span class="octicon octicon-link"></span></a>3. node.js</h3>
+<ul>
+<li>Node.js is an open source server environment.</li>
+<li>Node.js allows you to run JavaScript on the server.</li>
+</ul>
+<h3 id="4-angular-js"><a class="anchor" name="4-angular-js" href="#4-angular-js"><span class="octicon octicon-link"></span></a>4. angular js</h3>
+<ul>
+<li>AngularJS extends HTML with new attributes.</li>
+<li>AngularJS is perfect for Single Page Applications (SPAs).</li>
+<li>AngularJS is easy to learn.</li>
+</ul>
+</div></body></html>
