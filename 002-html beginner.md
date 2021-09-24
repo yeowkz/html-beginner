@@ -171,7 +171,7 @@ Try to click the laptop, phone or coffee below: `not clickable in gitlab`
 ### ADDITIONAL: go for css, javascript, sql, python and php
 ### ADDITIONAL:  canvas, svg
 
-# extended OF extended ADDITIONAL STUDIESS <a id="extendedOFextended"></a>
+# ADDITIONAL STUDIES <a id="extendedOFextended"></a>
 
 ### 1. React
 + React is a JavaScript library for building user interfaces.
